@@ -1,0 +1,8 @@
+.sidebar {
+    background-color: #f7f6f3;
+}
+
+.sidebar .leftToggle:hover {
+    background-color: #d6d5d0;
+    border-radius: 0.3rem;
+}
