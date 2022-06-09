@@ -2,7 +2,6 @@ import { useState } from 'react';
 import * as AiIcon from 'react-icons/ai';
 
 import './Sidebar.css';
-
 function Sidebar() {
 
     return (
@@ -13,7 +12,7 @@ function Sidebar() {
                     <div className="avatar w-9 h-9">
                         <img src="https://avatars.githubusercontent.com/u/74342663" alt="" className=' rounded-full' />
                     </div>
-                    <span className='mx-2 mr-9'>Username</span>
+                    <span className='mx-2 mr-9 font-semibold'>Username</span>
                     <button className="leftToggle">
                         <AiIcon.AiOutlineDoubleLeft className=' text-gray-600 w-6 h-6'/>
                     </button>

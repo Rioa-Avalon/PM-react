@@ -5,6 +5,7 @@
 
 .img-box {
   background-image: url("/BaseImg.jpg");
+  background-size: cover;
   height: 30vh;
 }
 
