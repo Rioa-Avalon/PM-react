@@ -1,8 +1,19 @@
-.App {
-  text-align: center;
-}
-
 .toggle-icon:hover {
   background-color: #d6d5d0;
   border-radius: 0.3rem;
+}
+
+.img-box {
+  background-image: url("/BaseImg.jpg");
+  height: 30vh;
+}
+
+.content-projects {
+  padding-left: calc(96px + env(safe-area-inset-left));
+  padding-right: calc(96px + env(safe-area-inset-right));
+}
+
+.content-title {
+  height: 8rem;
+  box-shadow: rgb(233, 233, 231) 0px -1px 0px inset;
 }

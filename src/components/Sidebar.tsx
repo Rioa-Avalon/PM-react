@@ -8,7 +8,7 @@ function Sidebar() {
     return (
             
         <>
-            <div className="sidebar flex flex-col w-50 h-full">
+            <div className="sidebar flex flex-col w-60">
                 <div className="sidebar-header flex justify-center items-center m-3">
                     <div className="avatar w-9 h-9">
                         <img src="https://avatars.githubusercontent.com/u/74342663" alt="" className=' rounded-full' />
